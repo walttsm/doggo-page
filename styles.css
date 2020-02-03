@@ -4,8 +4,10 @@
 .header{
     padding: 20px 5px;
     align-content: center;
-    background-color: rgb(125, 125, 125);
-    color: white;
+}
+
+body {
+    background-color: burlywood;
 }
 
 .page-title{
@@ -42,6 +44,7 @@
     grid-auto-flow: row;
     align-items: center;
     flex-wrap: wrap;
+    max-width: fit-content;
 
     
     
